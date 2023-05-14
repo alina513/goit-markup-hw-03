@@ -1,0 +1,246 @@
+:root {
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  --primary-background: #ffffff;
+  --secondary-background: #f4f4fd;
+  --footer-hero-background: #2e2f42;
+
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --primary-text-color-theme-dark: #ffffff;
+  --secondary-text-color-theme-dark: #f4f4fd;
+
+  --button-color: #4d5ae5;
+  --button-color-hover: #404bbf;
+  --accent-color: #404bbf;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  background-color: var(--primary-background);
+  color: var(--primary-text-color);
+
+  font-family: var(--primary-font);
+  letter-spacing: 0.02em;
+}
+/* Component */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+}
+
+/* Header */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-color);
+}
+
+.accent {
+  color: var(--secondary-text-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--secondary-text-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.list-contact {
+  font-style: normal;
+}
+
+.contact {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--primary-text-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--footer-hero-background);
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color-theme-dark);
+}
+.modal-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+
+  background-color: var(--button-color);
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-text-color-theme-dark);
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--button-color-hover);
+}
+
+/* About us */
+
+.section-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.section-list-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Our team */
+
+.team-section {
+  background-color: var(--secondary-background);
+}
+
+.team-section-list-item {
+  background-color: var(--primary-background);
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.team-list-description {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: var(--footer-hero-background);
+}
+
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--button-color);
+}
+
+.focus {
+  color: var(--secondary-text-color-theme-dark);
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--secondary-text-color-theme-dark);
+}
+
+/* Portfolio */
+
+.portfolio-page-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+.portfolio-page-list-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.filters-btn {
+  background-color: var(--secondary-background);
+
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: var(--button-color);
+
+  cursor: pointer;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--button-color-hover);
+
+  color: var(--primary-text-color-theme-dark);
+}
