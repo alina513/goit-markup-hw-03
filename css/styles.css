@@ -222,6 +222,7 @@ body {
   margin-right: auto;
 
   min-width: 169px;
+  height: 56px;
 }
 
 .modal-btn:hover,
@@ -252,7 +253,7 @@ body {
 }
 
 .list-item-aboutus {
-  flex-basis: calc(100%-72px / 4);
+  flex-basis: calc((100%-72px)/4);
 }
 
 /* What are we doing  */
@@ -268,7 +269,7 @@ body {
 }
 
 .works-list-item {
-  flex-basis: calc(100%-48 / 3);
+  flex-basis: calc((100%-48px)/3);
 }
 
 /* Our team */
