@@ -430,12 +430,15 @@ body {
   row-gap: 48px;
   flex-wrap: wrap;
 }
+
 .portfolio-list-item {
   flex-basis: calc(100%- 48 / 3);
 }
+
 .portfolio-padding {
   padding-top: 96px;
 }
+
 .text-card {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
